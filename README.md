@@ -4,12 +4,11 @@ Fun Project, Just simple project that inspired from [POP CAT](https://popcat.cli
 
 ## Read to know
 
-- [How to run](#how-to-run)
+- [Run Locally](#run-locally)
+- [Demo Web](#demo-web)
 - [Tech Stack](#tech-stack)
 
-## How To Run
-
-### Run Locally
+## Run Locally
 
 Clone the project
 
@@ -35,7 +34,7 @@ Start the Pop Cat
   npm run dev
 ```
 
-### Demo Web
+## Demo Web
 
 This project was deployed with [Vercel](https://vercel.com/)
 
