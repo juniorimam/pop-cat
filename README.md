@@ -1,6 +1,6 @@
-# [ FUN ] POP CAT
+# POP CAT
 
-Fun Project, Just simple project that inspired from [POP CAT](https://popcat.click/)
+Just simple project that inspired from [POP CAT](https://popcat.click/)
 
 ## Read to know
 
