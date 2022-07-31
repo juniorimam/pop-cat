@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Comic Sans MS";
+  background-image: url('assets/bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  user-select: none;
+}
+
+.home-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.cat-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cat-image img{
+  position: absolute;
+  bottom: 0;
+}
+
+.counter-text{
+  margin-top: 15px;
+  padding: 5px 20px;  
+  border-radius: 10px;
+  font-size: 1.6em;
+  font-weight: bold;
+  background-color: white;
+  border: 3px solid black;
+}
+
+.github{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  z-index: 999;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: white;
+}
+
+.username{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  background-color: #fff;
+  border: 3px solid black;
+  padding: 5px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  z-index: 3;
+}
+
+.username-icons{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.username-icons svg{
+  width: 20px;
+  padding: 3px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1440px) {
+  .cat-image img{
+    width: 32%;
+  }
+
+  .home-text img {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cat-image img{
+    width: 50%;
+  }
+  .home-text img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cat-image img{
+    width: 70%;
+  }
+
+  .home-text img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cat-image img{
+    width: 100%;
+  }
+  .home-text img {
+    width: 70%;
+  }
+}
