@@ -1,6 +1,6 @@
 # POP CAT
 
-Just simple project that inspired from [POP CAT](https://popcat.click/)
+Just simple project inspired from [POP CAT](https://popcat.click/)
 
 ## Read to know
 
@@ -42,8 +42,10 @@ This project was deployed with [Vercel](https://vercel.com/)
 
 ## Tech Stack
 
-**Client:** React
+**Client:** ReactJS
 
-## Authors
+---
 
-This project was created by [@juniorimam](https://www.github.com/juniorimam)
+[![https://vercel.com](src/assets/powered-by-vercel.svg)](https://vercel.com)
+
+Created by [@juniorimam](https://github.com/juniorimam)
